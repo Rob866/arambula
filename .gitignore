@@ -1,0 +1,8 @@
+sass/
+.prepros-6.config
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
