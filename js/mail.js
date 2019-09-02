@@ -30,8 +30,7 @@ function submitForm(e){
   var mensaje = getInputVal("mensaje");
   var email = getInputVal("email");
   var  telefono = getInputVal("telefono");
-  console.log('testing')
-  send(nombre,email,mensaje,telefono)
+  send(nombre,email,mensaje,telefono);
 
   document.querySelector(".alert").style.display ="block";
   //hide alert after 3 seconds
