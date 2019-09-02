@@ -18,6 +18,10 @@ async function send (nombre,email,mensaje,telefono) {
     }
 
 }
+//function to get form values
+function getInputVal(id){
+  return document.getElementById(id).value;
+}
 
 function submitForm(e){
   e.preventDefault();
