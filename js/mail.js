@@ -1,6 +1,7 @@
 //Listen for  form submit
 let app = axios.create({
-    baseURL: 'https://maildata.herokuapp.com'    
+    baseURL: 'https://maildata.herokuapp.com',
+    headers: {'Access-Control-Allow-Origin': '*'}    
 })
 document.getElementById("contactForm").addEventListener("submit",submitForm);
 
